@@ -1,0 +1,25 @@
+{
+  "name": "gamestreet_api",
+  "version": "1.0.0",
+  "description": "Backend for GameStreet Mobile App to interact with",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "SaM",
+  "license": "ISC",
+  "engines": {
+    "node": "14.17.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  }
+}
